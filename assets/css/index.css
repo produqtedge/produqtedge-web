@@ -74,6 +74,54 @@
   color: rgba(0, 0, 0, 0.7);
 }
 
+.focus {
+  display: flex;
+  justify-content: center;
+  background: url("../images/svg/focus-bg.svg");
+  height: 885px;
+  background-color: red;
+  padding-top: 167px;
+  margin-top: -81px;
+}
+.focus .inner {
+  width: 82%;
+}
+.focus .inner .title {
+  width: 70%;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+.focus .inner .card-deck {
+  flex-flow: wrap !important;
+  display: flex;
+  justify-content: center;
+}
+.focus .inner .card {
+  min-width: 300px;
+  max-width: 350px;
+  height: 330px;
+  border: none;
+  border-top: 10px solid #58BFE4;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
+  padding: 20px 20px 20px 20px;
+  margin-bottom: 30px;
+}
+.focus .inner .card .title {
+  font-weight: bold;
+  font-size: 20px;
+  color: #5090DC;
+  margin: 20px 0px 10px 0px;
+}
+.focus .inner .card .body {
+  line-height: 25px;
+  font-size: 14px;
+  color: rgbs(0, 0, 0, 0.7);
+}
+
 .contact {
   display: flex;
   justify-content: center;
@@ -295,6 +343,19 @@ footer .inner {
     margin-top: 20px;
   }
 
+  .focus {
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+  .focus .inner {
+    width: 82%;
+  }
+  .focus .inner .title {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+  }
+
   .contact {
     height: 100% !important;
   }
@@ -373,6 +434,19 @@ footer .inner {
     margin-top: 20px;
   }
 
+  .focus {
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+  .focus .inner {
+    width: 82%;
+  }
+  .focus .inner .title {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+  }
+
   .contact {
     height: 100% !important;
   }
@@ -448,6 +522,19 @@ footer .inner {
   .what-we-do .inner .card {
     height: 100%;
     margin-top: 20px;
+  }
+
+  .focus {
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+  .focus .inner {
+    width: 82%;
+  }
+  .focus .inner .title {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
   }
 
   .contact {
