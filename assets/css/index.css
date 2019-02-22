@@ -78,15 +78,38 @@
   display: flex;
   justify-content: center;
   height: 894px;
+  padding-top: 60px;
+  background: red;
 }
 .contact .inner {
   width: 82%;
 }
-.contact .inner .left-col {
+.contact .inner .left-col .title {
   font-family: Poppins;
   font-weight: bold;
   font-size: 40px;
   color: #1D4256;
+  margin-bottom: 50px;
+}
+.contact .inner .left-col form label {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 14px;
+  color: #545F7D;
+}
+.contact .inner .left-col form input {
+  height: 60px;
+  border: 1px solid rgba(84, 95, 125, 0.15);
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.contact .inner .left-col form .form-group {
+  margin-bottom: 30px;
+}
+.contact .inner .left-col form textarea {
+  resize: none;
 }
 .contact .inner .right-col {
   height: 100%;
@@ -101,6 +124,49 @@
   background-size: cover;
   color: #FFFFFF;
   font-size: 16px;
+}
+.contact .inner .right-col .contact-card .icons {
+  display: flex;
+}
+.contact .inner .right-col .contact-card .icons .icon {
+  max-width: 20px;
+  min-width: 20px;
+  max-height: 20px;
+  min-height: 20px;
+  background: #FFFFFF;
+  border-radius: 100%;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.contact .inner .right-col .contact-card .icons .icon i {
+  color: #2D46BB;
+  font-size: 11px !important;
+}
+.contact .inner .right-col .tagger {
+  font-weight: bold;
+  font-size: 30px;
+  color: #1D4256;
+  margin: 70px 0px 30px 0px;
+  text-align: center;
+}
+.contact .inner .right-col .animated-text {
+  text-align: center;
+}
+.contact .inner .right-col .animated-text p {
+  font-weight: bold;
+  line-height: 100px;
+  font-size: 45px;
+  color: #58BFE4;
+}
+.contact .inner .right-col .animated-text .animated-dash {
+  width: 300px;
+  height: 10px;
+  background: #58BFE4;
+  opacity: 0.5;
+  border-radius: 10px;
 }
 
 footer {
@@ -134,6 +200,48 @@ footer .inner {
   .hero .inner .hero-image {
     width: 100%;
     height: 80%;
+  }
+
+  .contact {
+    height: 100% !important;
+  }
+  .contact .inner {
+    width: 95%;
+  }
+  .contact .inner .left-col .title {
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .contact .inner .right-col {
+    height: 40%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+  .contact .inner .right-col .contact-card {
+    padding: 30px 16% 30px 45px !important;
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    background: url("../images/svg/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .contact .inner .right-col .tagger {
+    margin: 30px 0px 0px 0px;
+  }
+  .contact .inner .right-col .animated-text {
+    text-align: center;
+  }
+  .contact .inner .right-col .animated-text p {
+    line-height: normal;
+    font-size: 35px;
+  }
+  .contact .inner .right-col .animated-text .animated-dash {
+    width: 300px;
+    height: 8px;
   }
 }
 /* All small devices (portrait phones, less than 576px) */
@@ -186,6 +294,48 @@ footer .inner {
     height: 100%;
     margin-top: 20px;
   }
+
+  .contact {
+    height: 100% !important;
+  }
+  .contact .inner {
+    width: 95%;
+  }
+  .contact .inner .left-col .title {
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .contact .inner .right-col {
+    height: 40%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+  .contact .inner .right-col .contact-card {
+    padding: 30px 30% 30px 45px;
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    background: url("../images/svg/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .contact .inner .right-col .tagger {
+    margin: 30px 0px 0px 0px;
+  }
+  .contact .inner .right-col .animated-text {
+    text-align: center;
+  }
+  .contact .inner .right-col .animated-text p {
+    line-height: normal;
+    font-size: 35px;
+  }
+  .contact .inner .right-col .animated-text .animated-dash {
+    width: 300px;
+    height: 8px;
+  }
 }
 /* Extra small devices (portrait phones, less than 576px) */
 /* Small devices (landscape phones, 576px and up) */
@@ -222,6 +372,48 @@ footer .inner {
     height: 100%;
     margin-top: 20px;
   }
+
+  .contact {
+    height: 100% !important;
+  }
+  .contact .inner {
+    width: 90%;
+  }
+  .contact .inner .left-col .title {
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .contact .inner .right-col {
+    height: 40%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+  .contact .inner .right-col .contact-card {
+    padding: 30px 56% 30px 45px;
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    background: url("../images/svg/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .contact .inner .right-col .tagger {
+    margin: 30px 0px 0px 0px;
+  }
+  .contact .inner .right-col .animated-text {
+    text-align: center;
+  }
+  .contact .inner .right-col .animated-text p {
+    line-height: normal;
+    font-size: 35px;
+  }
+  .contact .inner .right-col .animated-text .animated-dash {
+    width: 300px;
+    height: 8px;
+  }
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -256,6 +448,48 @@ footer .inner {
   .what-we-do .inner .card {
     height: 100%;
     margin-top: 20px;
+  }
+
+  .contact {
+    height: 100% !important;
+  }
+  .contact .inner {
+    width: 90%;
+  }
+  .contact .inner .left-col .title {
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .contact .inner .right-col {
+    height: 40%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+  .contact .inner .right-col .contact-card {
+    padding: 30px 56% 30px 45px;
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    background: url("../images/svg/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .contact .inner .right-col .tagger {
+    margin: 30px 0px 0px 0px;
+  }
+  .contact .inner .right-col .animated-text {
+    text-align: center;
+  }
+  .contact .inner .right-col .animated-text p {
+    line-height: normal;
+    font-size: 35px;
+  }
+  .contact .inner .right-col .animated-text .animated-dash {
+    width: 300px;
+    height: 8px;
   }
 }
 /* Large devices (desktops, 992px and up) */

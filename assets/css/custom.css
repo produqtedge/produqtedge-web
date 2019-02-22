@@ -1,4 +1,4 @@
-p, a, h1, h2, h3, h4, h5, h6, div, button, .btn{
+p, a, h1, h2, h3, h4, h5, h6, div, button, label, input, textarea .btn{
   font-family: 'Poppins', sans-serif;
 }
 
@@ -12,4 +12,16 @@ p, a, h1, h2, h3, h4, h5, h6, div, button, .btn{
   line-height: normal;
   font-size: 20px;
   color: #1D4256;
+}
+
+.btn-blue {
+  min-width: 295px;
+  height: 60px;
+  background: #2D46BB;
+  box-shadow: 0px 20px 42px rgba(0, 0, 0, 0.07);
+  border-radius: 100px;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 20px;
+  color: #FFFFFF;
 }
