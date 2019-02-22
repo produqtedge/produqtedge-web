@@ -6,7 +6,6 @@
   margin-top: 115px;
   width: 82%;
   min-height: 500px;
-  background: red;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 .hero .inner .left-hero {
@@ -28,11 +27,9 @@
   display: flex;
   justify-content: center;
   padding: 50px 0px;
-  background: black;
 }
 .clients .inner {
   width: 82%;
-  background: green;
 }
 .clients .inner .title {
   font-family: Poppins;
@@ -80,7 +77,6 @@
   background: url("../images/svg/focus-bg.svg");
   background-repeat: no-repeat;
   height: 1325px;
-  background-color: red;
   padding-top: 167px;
   margin-top: -81px;
 }
@@ -125,12 +121,12 @@
 
 .combined-container {
   display: flex;
-  height: 2036px;
+  height: 120%;
   justify-content: center;
   background: url("../images/svg/lg-bg.svg");
-  background-size: contain;
+  background-size: cover;
+  padding-bottom: 150px !important;
   background-repeat: no-repeat;
-  background-color: yellow;
 }
 .combined-container .inner {
   margin-top: 200px;
@@ -142,21 +138,18 @@
   border: none;
   background: #2D46BB;
   border-top: 10px solid #58BFE4;
-  box-sizing: border-box;
   border-radius: 10px;
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
-  padding: 20px 20px 20px 20px;
+  padding: 90px 70px 94px 120px;
   margin-bottom: 30px;
 }
 .combined-container .inner .industries {
   height: 508px;
-  background-color: blue;
   display: flex;
   justify-content: center;
   padding: 125px 0px;
 }
 .combined-container .inner .industries .row {
-  background-color: green;
   width: 100%;
 }
 .combined-container .inner .industries .left-col .title {
@@ -196,13 +189,72 @@
 .combined-container .inner .industries .right-col .last-card {
   margin-top: 50px;
 }
+.combined-container .inner .partnerships .title {
+  font-weight: bold;
+  font-size: 40px;
+  color: #1D4256;
+  text-align: center;
+}
+.combined-container .inner .partnerships .inner {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  width: 100%;
+}
+.combined-container .inner .partnerships .inner .row {
+  width: 100%;
+}
+.combined-container .inner .partnerships .inner .row .left-col {
+  padding-left: 0px;
+}
+.combined-container .inner .partnerships .inner .row .left-col .card {
+  height: 235px;
+  background: rgba(88, 191, 228, 0.1);
+  border-radius: 10px;
+  padding: 31px;
+}
+.combined-container .inner .partnerships .inner .row .left-col .card .title {
+  font-weight: 500;
+  font-size: 20px;
+  color: rgba(29, 66, 86, 0.4);
+  text-align: left;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.66);
+}
+.combined-container .inner .partnerships .inner .row .left-col .card .body .partner {
+  font-weight: 600;
+  font-size: 20px;
+  color: #1D4256;
+}
+.combined-container .inner .partnerships .inner .row .left-col .card .body .duration {
+  font-weight: 500;
+  font-size: 20px;
+  color: rgba(29, 66, 86, 0.6);
+  margin-top: 50px;
+}
+.combined-container .inner .partnerships .inner .row .right-col {
+  padding-right: 0px;
+}
+.combined-container .inner .partnerships .inner .row .right-col .card {
+  height: 297px;
+  background: rgba(88, 191, 228, 0.1);
+  border-radius: 10px;
+  padding: 31px;
+}
+.combined-container .inner .partnerships .inner .row .right-col .card .title {
+  font-weight: bold;
+  text-align: left;
+  font-size: 35px;
+  color: #58BFE4;
+  margin-bottom: 20px;
+}
 
 .contact {
   display: flex;
   justify-content: center;
   height: 894px;
   padding-top: 60px;
-  background: red;
 }
 .contact .inner {
   width: 82%;
@@ -369,8 +421,13 @@ footer .inner {
 }
 /* All small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .btn-orange, .btn-blue {
+    font-size: 16px;
+    min-width: 100%;
+  }
+
   .hero .inner {
-    margin-top: 65px;
+    margin-top: 90px;
     width: 95%;
     height: 100%;
   }
@@ -393,11 +450,9 @@ footer .inner {
     display: flex;
     justify-content: center;
     padding: 50px 0px;
-    background: black;
   }
   .clients .inner {
     width: 95%;
-    background: green;
   }
   .clients .inner .title {
     font-family: Poppins;
@@ -443,7 +498,6 @@ footer .inner {
     background: url("../images/svg/lg-bg.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: yellow;
   }
   .combined-container .inner {
     margin-top: 20px;
@@ -451,11 +505,16 @@ footer .inner {
     height: 100%;
   }
   .combined-container .inner .how-we-do-it .card {
-    height: 758px;
+    min-width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+  .combined-container .inner .how-we-do-it .card .illustration {
+    height: 300%;
+    width: 100%;
   }
   .combined-container .inner .industries {
     height: 100%;
-    background-color: blue;
     padding: 0px 0px;
   }
   .combined-container .inner .industries .row {
@@ -475,14 +534,31 @@ footer .inner {
     display: flex;
     justify-content: center;
   }
-  .combined-container .inner .industries .right-col .row {
-    background: brown;
-  }
   .combined-container .inner .industries .right-col .row .col-12 {
     padding: 0px;
   }
   .combined-container .inner .industries .right-col .last-card {
     margin-top: 0px;
+  }
+  .combined-container .inner .partnerships .title {
+    font-size: 36px;
+    margin-top: 20px;
+  }
+  .combined-container .inner .partnerships .inner {
+    margin-top: 0px;
+  }
+  .combined-container .inner .partnerships .inner .row {
+    width: 100%;
+  }
+  .combined-container .inner .partnerships .inner .row .right-col {
+    margin-top: 20px;
+  }
+  .combined-container .inner .partnerships .inner .row .right-col .card {
+    height: 100%;
+  }
+  .combined-container .inner .partnerships .inner .row .right-col .card .title {
+    text-align: center;
+    font-size: 24px;
   }
 
   .contact {
@@ -531,7 +607,7 @@ footer .inner {
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
   .hero .inner {
-    margin-top: 80px;
+    margin-top: 100px;
     padding-top: 10px;
     width: 90%;
     height: 100%;
@@ -574,6 +650,76 @@ footer .inner {
     width: 100%;
     font-size: 20px;
     text-align: center;
+  }
+
+  .combined-container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    background: url("../images/svg/lg-bg.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .combined-container .inner {
+    margin-top: 20px;
+    width: 95%;
+    height: 100%;
+  }
+  .combined-container .inner .how-we-do-it .card {
+    min-width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+  .combined-container .inner .how-we-do-it .card .illustration {
+    height: 300%;
+    width: 100%;
+  }
+  .combined-container .inner .industries {
+    height: 100%;
+    padding: 0px 0px;
+  }
+  .combined-container .inner .industries .row {
+    background-color: transparent;
+    height: 100%;
+  }
+  .combined-container .inner .industries .left-col {
+    padding: 0px;
+  }
+  .combined-container .inner .industries .left-col .title {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 0px;
+  }
+  .combined-container .inner .industries .right-col {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .combined-container .inner .industries .right-col .row .col-12 {
+    padding: 0px;
+  }
+  .combined-container .inner .industries .right-col .last-card {
+    margin-top: 0px;
+  }
+  .combined-container .inner .partnerships .title {
+    font-size: 36px;
+    margin-top: 20px;
+  }
+  .combined-container .inner .partnerships .inner {
+    margin-top: 0px;
+  }
+  .combined-container .inner .partnerships .inner .row {
+    width: 100%;
+  }
+  .combined-container .inner .partnerships .inner .row .right-col {
+    margin-top: 20px;
+  }
+  .combined-container .inner .partnerships .inner .row .right-col .card {
+    height: 100%;
+  }
+  .combined-container .inner .partnerships .inner .row .right-col .card .title {
+    text-align: center;
+    font-size: 24px;
   }
 
   .contact {
@@ -621,7 +767,7 @@ footer .inner {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   .hero .inner {
-    margin-top: 80px;
+    margin-top: 100px;
     padding-top: 10px;
     width: 90%;
     height: 100%;
@@ -664,6 +810,76 @@ footer .inner {
     width: 100%;
     font-size: 20px;
     text-align: center;
+  }
+
+  .combined-container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    background: url("../images/svg/lg-bg.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .combined-container .inner {
+    margin-top: 20px;
+    width: 95%;
+    height: 100%;
+  }
+  .combined-container .inner .how-we-do-it .card {
+    min-width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+  .combined-container .inner .how-we-do-it .card .illustration {
+    height: 300%;
+    width: 100%;
+  }
+  .combined-container .inner .industries {
+    height: 100%;
+    padding: 0px 0px;
+  }
+  .combined-container .inner .industries .row {
+    background-color: transparent;
+    height: 100%;
+  }
+  .combined-container .inner .industries .left-col {
+    padding: 0px;
+  }
+  .combined-container .inner .industries .left-col .title {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 0px;
+  }
+  .combined-container .inner .industries .right-col {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .combined-container .inner .industries .right-col .row .col-12 {
+    padding: 0px;
+  }
+  .combined-container .inner .industries .right-col .last-card {
+    margin-top: 0px;
+  }
+  .combined-container .inner .partnerships .title {
+    font-size: 36px;
+    margin-top: 20px;
+  }
+  .combined-container .inner .partnerships .inner {
+    margin-top: 0px;
+  }
+  .combined-container .inner .partnerships .inner .row {
+    width: 100%;
+  }
+  .combined-container .inner .partnerships .inner .row .right-col {
+    margin-top: 20px;
+  }
+  .combined-container .inner .partnerships .inner .row .right-col .card {
+    height: 100%;
+  }
+  .combined-container .inner .partnerships .inner .row .right-col .card .title {
+    text-align: center;
+    font-size: 24px;
   }
 
   .contact {

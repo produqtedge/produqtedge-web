@@ -7,7 +7,6 @@
     margin-top:115px;
     width: 82%;
     min-height: 500px;
-    background: red;
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
     .left-hero {
       height: 100%;
@@ -29,10 +28,8 @@
   display: flex;
   justify-content: center;
   padding: 50px 0px;
-  background: black;
   .inner {
     width: 82%;
-    background: green;
     .title {
       font-family: Poppins;
       font-weight: bold;
@@ -79,7 +76,6 @@
   background: url('../images/svg/focus-bg.svg');
   background-repeat: no-repeat;
   height: 1325px;
-  background-color: red;
   padding-top: 167px;
   margin-top: -81px;
   .inner {
@@ -123,38 +119,34 @@
 }
 .combined-container {
   display: flex;
-  height: 2036px;
+  height: 120%;
   justify-content: center;
   background: url('../images/svg/lg-bg.svg');
-  background-size: contain;
+  background-size: cover;
+  padding-bottom: 150px!important;
   background-repeat: no-repeat;
-  background-color: yellow;
   .inner {
     margin-top: 200px;
     width: 82%;
     .how-we-do-it {
       .card {
         min-width: 100%;
-        // max-width:
         height:758px;
         border: none;
         background: #2D46BB;
         border-top: 10px solid $primary-light-blue;
-        box-sizing: border-box;
         border-radius: 10px;
         box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
-        padding: 20px 20px 20px 20px;
+        padding: 90px 70px 94px 120px;
         margin-bottom: 30px;
       }
     }
     .industries {
       height: 508px;
-      background-color: blue;
       display: flex;
       justify-content: center;
       padding: 125px 0px;
       .row {
-        background-color: green;
         width: 100%;
       }
       .left-col {
@@ -197,6 +189,71 @@
         }
       }
     }
+    .partnerships {
+      .title {
+        font-weight: bold;
+        font-size: 40px;
+        color: #1D4256;
+        text-align: center;
+      }
+      .inner {
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+        width: 100%;
+        .row {
+          width: 100%;
+          .left-col {
+            padding-left: 0px;
+            .card {
+              // width: 511px;
+              height: 235px;
+              background: rgba(88, 191, 228, 0.1);
+              border-radius: 10px;
+              padding: 31px;
+              .title {
+                font-weight: 500;
+                font-size: 20px;
+                color: rgba(29, 66, 86, 0.4);
+                text-align: left;
+                padding-bottom: 10px;
+                margin-bottom: 20px;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.66);
+              }
+              .body {
+                .partner {
+                  font-weight: 600;
+                  font-size: 20px;
+                  color: #1D4256;
+                }
+                .duration {
+                  font-weight: 500;
+                  font-size: 20px;
+                  color: rgba(29, 66, 86, 0.6);
+                  margin-top: 50px;
+                }
+              }
+            }
+          }
+          .right-col {
+            padding-right: 0px;
+            .card {
+              height: 297px;
+              background: rgba(88, 191, 228, 0.1);
+              border-radius: 10px;
+              padding: 31px;
+              .title {
+                font-weight: bold;
+                text-align: left;
+                font-size: 35px;
+                color: #58BFE4;
+                margin-bottom: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
 .contact {
@@ -204,7 +261,6 @@
   justify-content: center;
   height: 894px;
   padding-top: 60px;
-  background: red;
   .inner {
     width: 82%;
     .left-col {
@@ -386,10 +442,13 @@ footer {
 
 /* All small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-
+  .btn-orange, .btn-blue {
+    font-size: 16px;
+    min-width: 100%;
+  }
   .hero {
     .inner {
-      margin-top:65px;
+      margin-top:90px;
       width: 95%;
       height: 100%;
       .left-hero {
@@ -413,10 +472,8 @@ footer {
     display: flex;
     justify-content: center;
     padding: 50px 0px;
-    background: black;
     .inner {
       width: 95%;
-      background: green;
       .title {
         font-family: Poppins;
         font-weight: bold;
@@ -465,19 +522,23 @@ footer {
     background: url('../images/svg/lg-bg.svg');
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: yellow;
     .inner {
       margin-top: 20px;
       width: 95%;
       height: 100%;
       .how-we-do-it {
         .card {
-          height:758px;
+          min-width: 100%;
+          height:100%;
+          padding: 10px;
+          .illustration {
+            height: 300%;
+            width: 100%;
+          }
         }
       }
       .industries {
         height: 100%;
-        background-color: blue;
         padding: 0px 0px;
         .row {
           background-color: transparent;
@@ -496,13 +557,34 @@ footer {
           display: flex;
           justify-content: center;
           .row {
-            background: brown;
             .col-12 {
-              padding: 0px; 
+              padding: 0px;
             }
           }
           .last-card {
             margin-top: 0px;
+          }
+        }
+      }
+      .partnerships {
+        .title {
+          font-size: 36px;
+          margin-top: 20px;
+        }
+        .inner {
+          margin-top: 0px;
+          .row {
+            width: 100%;
+            .right-col {
+              margin-top: 20px;
+              .card {
+                height: 100%;
+                .title {
+                  text-align: center;
+                  font-size: 24px;
+                }
+              }
+            }
           }
         }
       }
@@ -565,7 +647,7 @@ footer {
 
   .hero {
     .inner {
-      margin-top:80px;
+      margin-top:100px;
       padding-top: 10px;
       width: 90%;
       height: 100%;
@@ -608,6 +690,81 @@ footer {
         width: 100%;
         font-size: 20px;
         text-align: center;
+      }
+    }
+  }
+  .combined-container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    background: url('../images/svg/lg-bg.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    .inner {
+      margin-top: 20px;
+      width: 95%;
+      height: 100%;
+      .how-we-do-it {
+        .card {
+            min-width: 100%;
+            height:100%;
+            padding: 10px;
+            .illustration {
+              height: 300%;
+              width: 100%;
+            }
+        }
+      }
+      .industries {
+        height: 100%;
+        padding: 0px 0px;
+        .row {
+          background-color: transparent;
+          height: 100%;
+        }
+        .left-col {
+          padding: 0px;
+          .title {
+            font-size: 36px;
+            text-align: center;
+            margin-top:0px;
+          }
+        }
+        .right-col {
+          padding: 0px;
+          display: flex;
+          justify-content: center;
+          .row {
+            .col-12 {
+              padding: 0px;
+            }
+          }
+          .last-card {
+            margin-top: 0px;
+          }
+        }
+      }
+      .partnerships {
+        .title {
+          font-size: 36px;
+          margin-top: 20px;
+        }
+        .inner {
+          margin-top: 0px;
+          .row {
+            width: 100%;
+            .right-col {
+              margin-top: 20px;
+              .card {
+                height: 100%;
+                .title {
+                  text-align: center;
+                  font-size: 24px;
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -661,7 +818,7 @@ footer {
 
   .hero {
     .inner {
-      margin-top:80px;
+      margin-top:100px;
       padding-top: 10px;
       width: 90%;
       height: 100%;
@@ -704,6 +861,81 @@ footer {
         width: 100%;
         font-size: 20px;
         text-align: center;
+      }
+    }
+  }
+  .combined-container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    background: url('../images/svg/lg-bg.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    .inner {
+      margin-top: 20px;
+      width: 95%;
+      height: 100%;
+      .how-we-do-it {
+        .card {
+            min-width: 100%;
+            height:100%;
+            padding: 10px;
+            .illustration {
+              height: 300%;
+              width: 100%;
+            }
+        }
+      }
+      .industries {
+        height: 100%;
+        padding: 0px 0px;
+        .row {
+          background-color: transparent;
+          height: 100%;
+        }
+        .left-col {
+          padding: 0px;
+          .title {
+            font-size: 36px;
+            text-align: center;
+            margin-top:0px;
+          }
+        }
+        .right-col {
+          padding: 0px;
+          display: flex;
+          justify-content: center;
+          .row {
+            .col-12 {
+              padding: 0px;
+            }
+          }
+          .last-card {
+            margin-top: 0px;
+          }
+        }
+      }
+      .partnerships {
+        .title {
+          font-size: 36px;
+          margin-top: 20px;
+        }
+        .inner {
+          margin-top: 0px;
+          .row {
+            width: 100%;
+            .right-col {
+              margin-top: 20px;
+              .card {
+                height: 100%;
+                .title {
+                  text-align: center;
+                  font-size: 24px;
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
