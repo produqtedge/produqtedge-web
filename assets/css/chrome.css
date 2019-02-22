@@ -1,13 +1,12 @@
 .header {
   display: flex;
   justify-content: center;
-  height: 125px;
   align-items: center;
-  background: #FFFFFF;
+  background: green;
 }
 .header .navbar {
   width: 82%;
-  padding: 0;
+  padding: 35px 0px;
 }
 .header .navbar .navbar-nav .nav-item {
   margin-left: 50px;
@@ -18,5 +17,41 @@
   line-height: normal;
   font-size: 16px;
 }
+
+/* Extra small devices (portrait phones, less than 375px) */
+/* All small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .header .navbar {
+    width: 95%;
+    padding: 10px 0px;
+  }
+  .header .navbar .navbar-nav .nav-item {
+    margin-left: 0px;
+  }
+}
+/* Extra small devices (portrait phones, less than 576px) */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .header .navbar {
+    width: 90%;
+    padding: 20px 0px;
+  }
+  .header .navbar .navbar-nav .nav-item {
+    margin-left: 0px;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header .navbar {
+    width: 90%;
+    padding: 20px 0px;
+  }
+  .header .navbar .navbar-nav .nav-item {
+    margin-left: 0px;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
+/* Extra large devices (large desktops, 1440px and up) */
 
 /*# sourceMappingURL=chrome.css.map */

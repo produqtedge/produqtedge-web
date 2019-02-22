@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../raw/sass/chrome.scss","../../raw/sass/_variables.scss"],"names":[],"mappings":"AAEA;EACE;EACA;EACA;EACA;EACA,YCLc;;ADMd;EACE;EACA;;AAEE;EACE;;AACA;EACE;EACA;EACA;EACA","file":"chrome.css"}
+{"version":3,"sourceRoot":"","sources":["../../raw/sass/chrome.scss"],"names":[],"mappings":"AAEA;EACE;EACA;EACA;EAEA;;AACA;EACE;EACA;;AAEE;EACE;;AACA;EACE;EACA;EACA;EACA;;;AAQV;AAKA;AACA;EAEI;IACE;IACA;;EAEE;IACE;;;AAQV;AAKA;AACA;EAEI;IACE;IACA;;EAEE;IACE;;;AAOV;AACA;EAEI;IACE;IACA;;EAEE;IACE;;;AAOV;AAKA;AAKA","file":"chrome.css"}
