@@ -17,7 +17,7 @@
   font-family: Poppins;
   font-weight: bold;
   font-size: 40px;
-  color: #1D4256;
+  color: #000712;
 }
 .hero .inner .hero-image {
   width: 550px;
@@ -27,15 +27,17 @@
   display: flex;
   justify-content: center;
   padding: 50px 0px;
+  margin-bottom: 50px !important;
 }
 .clients .inner {
-  width: 82%;
+  margin-top: 0px !important;
+  width: 100% !important;
 }
 .clients .inner .title {
   font-family: Poppins;
   font-weight: bold;
   font-size: 20px;
-  color: #1D4256;
+  color: #000712;
   margin-bottom: 60px;
 }
 .clients .inner img {
@@ -52,7 +54,7 @@
 .what-we-do .inner .card {
   height: 450px;
   border: none;
-  border-top: 10px solid #58BFE4;
+  border-top: 10px solid #72B8C9;
   box-sizing: border-box;
   border-radius: 10px;
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
@@ -61,7 +63,7 @@
 .what-we-do .inner .card .title {
   font-weight: bold;
   font-size: 20px;
-  color: #1D4256;
+  color: #000712;
   margin: 30px 0px 15px 0px;
 }
 .what-we-do .inner .card .body {
@@ -100,7 +102,7 @@
   max-width: 350px;
   height: 330px;
   border: none;
-  border-top: 10px solid #58BFE4;
+  border-top: 10px solid #72B8C9;
   box-sizing: border-box;
   border-radius: 10px;
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
@@ -110,7 +112,7 @@
 .focus .inner .card .title {
   font-weight: bold;
   font-size: 20px;
-  color: #5090DC;
+  color: #000712;
   margin: 20px 0px 10px 0px;
 }
 .focus .inner .card .body {
@@ -136,18 +138,18 @@
   min-width: 100%;
   height: 758px;
   border: none;
-  background: #2D46BB;
-  border-top: 10px solid #58BFE4;
+  background: #003F5A;
+  border-top: 10px solid #72B8C9;
   border-radius: 10px;
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
   padding: 90px 70px 94px 120px;
   margin-bottom: 30px;
 }
 .combined-container .inner .industries {
-  height: 508px;
+  height: 450px;
   display: flex;
   justify-content: center;
-  padding: 125px 0px;
+  padding: 125px 0px 50px 0px;
 }
 .combined-container .inner .industries .row {
   width: 100%;
@@ -158,7 +160,7 @@
   font-weight: bold;
   line-height: normal;
   font-size: 40px;
-  color: #1D4256;
+  color: #000712;
   margin-top: 25px;
 }
 .combined-container .inner .industries .right-col {
@@ -169,7 +171,7 @@
   min-width: 100%;
   height: 100px;
   border: none;
-  border-top: 10px solid #58BFE4;
+  border-top: 10px solid #72B8C9;
   box-sizing: border-box;
   border-radius: 10px;
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
@@ -189,65 +191,41 @@
 .combined-container .inner .industries .right-col .last-card {
   margin-top: 50px;
 }
-.combined-container .inner .partnerships .title {
-  font-weight: bold;
-  font-size: 40px;
-  color: #1D4256;
-  text-align: center;
+
+.partnerships {
+  margin-top: 30px;
 }
-.combined-container .inner .partnerships .inner {
-  display: flex;
-  justify-content: center;
-  margin-top: 70px;
+.partnerships .card {
   width: 100%;
-}
-.combined-container .inner .partnerships .inner .row {
-  width: 100%;
-}
-.combined-container .inner .partnerships .inner .row .left-col {
-  padding-left: 0px;
-}
-.combined-container .inner .partnerships .inner .row .left-col .card {
-  height: 235px;
+  min-height: 235px;
+  height: 100%;
   background: rgba(88, 191, 228, 0.1);
   border-radius: 10px;
   padding: 31px;
 }
-.combined-container .inner .partnerships .inner .row .left-col .card .title {
-  font-weight: 500;
+.partnerships .card .title {
+  font-weight: 600;
   font-size: 20px;
-  color: rgba(29, 66, 86, 0.4);
+  color: #000712;
   text-align: left;
   padding-bottom: 10px;
   margin-bottom: 20px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.66);
 }
-.combined-container .inner .partnerships .inner .row .left-col .card .body .partner {
+.partnerships .card .body .partner {
   font-weight: 600;
   font-size: 20px;
   color: #1D4256;
 }
-.combined-container .inner .partnerships .inner .row .left-col .card .body .duration {
+.partnerships .card .body .duration {
   font-weight: 500;
   font-size: 20px;
   color: rgba(29, 66, 86, 0.6);
   margin-top: 50px;
 }
-.combined-container .inner .partnerships .inner .row .right-col {
-  padding-right: 0px;
-}
-.combined-container .inner .partnerships .inner .row .right-col .card {
-  height: 297px;
-  background: rgba(88, 191, 228, 0.1);
-  border-radius: 10px;
-  padding: 31px;
-}
-.combined-container .inner .partnerships .inner .row .right-col .card .title {
-  font-weight: bold;
-  text-align: left;
-  font-size: 35px;
-  color: #58BFE4;
-  margin-bottom: 20px;
+.partnerships .card .body .btn {
+  font-size: 14px !important;
+  width: 100%;
 }
 
 .contact {
@@ -263,7 +241,7 @@
   font-family: Poppins;
   font-weight: bold;
   font-size: 40px;
-  color: #1D4256;
+  color: #000712;
   margin-bottom: 50px;
 }
 .contact .inner .left-col form label {
@@ -323,7 +301,7 @@
 .contact .inner .right-col .tagger {
   font-weight: bold;
   font-size: 30px;
-  color: #1D4256;
+  color: #000712;
   margin: 70px 0px 30px 0px;
   text-align: center;
 }
@@ -346,7 +324,7 @@
 
 footer {
   height: 148px;
-  background: #1D4256;
+  background: #003F5A;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -458,7 +436,7 @@ footer .inner {
     font-family: Poppins;
     font-weight: bold;
     font-size: 20px;
-    color: #1D4256;
+    color: #000712;
     margin-bottom: 60px;
   }
   .clients .inner img {
@@ -939,5 +917,11 @@ footer .inner {
 }
 /* Extra large devices (large desktops, 1200px and up) */
 /* Extra large devices (large desktops, 1440px and up) */
+@media (min-width: 1500px) {
+  .focus {
+    height: 100%;
+    background-size: cover;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */

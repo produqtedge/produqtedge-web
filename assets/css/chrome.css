@@ -8,6 +8,9 @@
   width: 82%;
   padding: 35px 0px;
 }
+.header .navbar .navbar-brand {
+  font-size: 2rem;
+}
 .header .navbar .navbar-nav .nav-item {
   margin-left: 50px;
 }
