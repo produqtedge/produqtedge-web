@@ -56,5 +56,29 @@
 /* Large devices (desktops, 992px and up) */
 /* Extra large devices (large desktops, 1200px and up) */
 /* Extra large devices (large desktops, 1440px and up) */
+@media (min-width: 1440px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+  }
+  .header .navbar {
+    width: 82%;
+    padding: 35px 0px;
+  }
+  .header .navbar .navbar-brand {
+    font-size: 3.4rem;
+  }
+  .header .navbar .navbar-nav .nav-item {
+    margin-left: 50px;
+  }
+  .header .navbar .navbar-nav .nav-item .nav-link {
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 28px;
+  }
+}
 
 /*# sourceMappingURL=chrome.css.map */

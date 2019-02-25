@@ -94,5 +94,28 @@
 
 /* Extra large devices (large desktops, 1440px and up) */
 @media (min-width: 1440px) {
-
+  .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $primary-white;
+    .navbar {
+      width: 82%;
+      padding: 35px 0px;
+      .navbar-brand{
+        font-size: 3.4rem;
+      }
+      .navbar-nav {
+        .nav-item {
+          margin-left: 50px;
+          .nav-link {
+            font-style: normal;
+            font-weight: normal;
+            line-height: normal;
+            font-size: 28px;
+          }
+        }
+      }
+    }
+  }
 }
