@@ -980,111 +980,60 @@ footer .inner {
     padding-right: 70px;
   }
 
-  .hero {
-    display: flex;
-    justify-content: center;
-  }
   .hero .inner {
-    margin-top: 115px;
     padding-bottom: 88px;
-    width: 82%;
-    min-height: 500px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-  }
-  .hero .inner .left-hero {
-    height: 100%;
-    display: flex;
-    align-items: center;
   }
   .hero .inner .left-hero .title {
-    font-family: Poppins;
-    font-weight: bold;
     font-size: 53px;
-    color: #000712;
   }
   .hero .inner .hero-image {
     width: 870px;
   }
 
   .what-we-do {
-    display: flex;
-    justify-content: center;
     margin-top: 118px;
-  }
-  .what-we-do .inner {
-    width: 82%;
   }
   .what-we-do .inner .card {
     height: 610px;
-    border: none;
-    border-top: 10px solid #72B8C9;
-    box-sizing: border-box;
-    border-radius: 10px;
-    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
-    padding: 40px 50px 30px 30px;
+  }
+  .what-we-do .inner .card img {
+    height: 134px;
+    width: 134px;
   }
   .what-we-do .inner .card .title {
-    font-weight: bold;
     font-size: 26px;
-    color: #000712;
-    margin: 30px 0px 15px 0px;
   }
   .what-we-do .inner .card .body {
-    font-weight: normal;
     line-height: 38px;
     font-size: 18px;
-    color: rgba(0, 0, 0, 0.7);
   }
 
   .focus {
-    display: flex;
-    justify-content: center;
     background: url("../images/svg/focus-bg-1902.svg");
+    margin-bottom: 383px;
     background-repeat: no-repeat;
-    padding-top: 167px;
-    margin-top: -81px;
-    margin-bottom: 143px;
-    background-size: cover;
-  }
-  .focus .inner {
-    width: 82%;
   }
   .focus .inner .title {
     width: 70%;
-    font-family: Poppins;
-    font-weight: 500;
     font-size: 40px;
-    color: #FFFFFF;
     margin-bottom: 52px;
   }
   .focus .inner .card-deck {
     flex-flow: wrap !important;
-    display: flex;
-    justify-content: center;
   }
   .focus .inner .card {
     min-width: 510px !important;
     margin-left: 0px !important;
-    height: 373px;
-    border: none;
-    border-top: 10px solid #72B8C9;
-    box-sizing: border-box;
-    border-radius: 10px;
-    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
-    padding: 20px 20px 20px 20px;
+    height: 442px;
     margin-bottom: 25px;
     margin-right: 25px;
   }
   .focus .inner .card .title {
-    font-weight: bold;
-    font-size: 20px;
-    color: #000712;
-    margin: 20px 0px 10px 0px;
+    font-size: 26px;
   }
   .focus .inner .card .body {
-    line-height: 25px;
-    font-size: 14px;
-    color: rgbs(0, 0, 0, 0.7);
+    line-height: 34px;
+    font-size: 18px;
   }
   .focus .inner .card:nth-child(3n) {
     margin-right: 0px !important;
@@ -1094,95 +1043,48 @@ footer .inner {
   }
 
   .combined-container {
-    display: flex;
     height: 100%;
-    justify-content: center;
     background: url("../images/svg/lg-bg.svg");
     background-size: cover;
     padding-bottom: 50px !important;
-    background-repeat: no-repeat;
   }
   .combined-container .inner {
-    margin-top: 200px;
-    width: 82%;
+    margin-top: 250px;
   }
   .combined-container .inner .how-we-do-it .card {
-    min-width: 100%;
     height: 1017px;
-    border: none;
-    background: #003F5A;
-    border-top: 10px solid #72B8C9;
-    border-radius: 10px;
-    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
-    padding: 90px 70px 94px 120px;
-    margin-bottom: 30px;
   }
   .combined-container .inner .how-we-do-it .card .illustration {
-    height: 300%;
     width: 100%;
   }
   .combined-container .inner .industries {
-    height: 450px;
-    display: flex;
-    justify-content: center;
-    padding: 125px 0px 50px 0px;
+    height: 500px;
   }
   .combined-container .inner .industries .row {
     width: 100%;
   }
   .combined-container .inner .industries .left-col .title {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    line-height: normal;
     font-size: 53px;
-    color: #000712;
     margin-top: 35px;
   }
-  .combined-container .inner .industries .right-col {
-    display: flex;
-    justify-content: center;
-  }
   .combined-container .inner .industries .right-col .card {
-    min-width: 100%;
     height: 134px;
-    border: none;
-    border-top: 10px solid #72B8C9;
-    box-sizing: border-box;
-    border-radius: 10px;
-    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
-    padding: 20px 20px 20px 20px;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 26px;
   }
   .combined-container .inner .industries .right-col .card .body {
-    font-weight: 500;
     font-size: 28px;
-    color: #1D4256;
-    margin-bottom: 0;
-    text-align: center;
   }
   .combined-container .inner .industries .right-col .last-card {
     margin-top: 67px;
   }
 
-  .clients {
-    display: flex;
-    justify-content: center;
-    padding: 50px 0px;
-  }
   .clients .inner {
     margin-top: 0px !important;
     width: 100% !important;
   }
   .clients .inner .title {
-    font-family: Poppins;
-    font-weight: bold;
     font-size: 26px;
-    color: #000712;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
   }
   .clients .inner img {
     margin: 0px 40px;
@@ -1190,111 +1092,59 @@ footer .inner {
   }
 
   .contact {
-    display: flex;
-    justify-content: center;
-    height: 894px;
-    padding-top: 60px;
-  }
-  .contact .inner {
-    width: 82%;
+    height: 1199px;
+    padding-top: 80px;
   }
   .contact .inner .left-col .title {
-    font-family: Poppins;
-    font-weight: bold;
     font-size: 53px;
-    color: #000712;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
   }
   .contact .inner .left-col form label {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
     font-size: 18px;
-    color: #545F7D;
   }
   .contact .inner .left-col form input {
-    height: 60px;
-    border: 1px solid rgba(84, 95, 125, 0.15);
-    box-sizing: border-box;
-    border-radius: 5px;
+    height: 80px;
   }
   .contact .inner .left-col form .form-group {
-    margin-bottom: 30px;
-  }
-  .contact .inner .left-col form textarea {
-    resize: none;
-  }
-  .contact .inner .right-col {
-    height: 100%;
-    display: flex;
-    align-items: center;
+    margin-bottom: 40px;
   }
   .contact .inner .right-col .contact-card {
-    padding: 30px 0px 30px 45px;
+    padding: 40px 0px 30px 40px;
     width: 685px;
     height: 201px;
-    background: url("../images/svg/bg.svg");
-    background-size: cover;
-    color: #FFFFFF;
     font-size: 24px;
-  }
-  .contact .inner .right-col .contact-card .icons {
-    display: flex;
   }
   .contact .inner .right-col .contact-card .icons .icon {
     max-width: 35px;
     min-width: 35px;
     max-height: 35px;
     min-height: 35px;
-    background: #FFFFFF;
-    border-radius: 100%;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
+    margin-right: 26px;
   }
   .contact .inner .right-col .contact-card .icons .icon i {
-    color: #2D46BB;
     font-size: 18px !important;
   }
   .contact .inner .right-col .partnerships {
-    margin-top: 30px;
-  }
-  .contact .inner .right-col .partnerships .card {
-    width: 100%;
-    min-height: 235px;
-    height: 100%;
-    background: rgba(88, 191, 228, 0.1);
-    border-radius: 10px;
-    padding: 31px;
+    margin-top: 40px;
   }
   .contact .inner .right-col .partnerships .card .title {
-    font-weight: 600;
     font-size: 32px;
-    color: #000712;
-    text-align: left;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.66);
   }
   .contact .inner .right-col .partnerships .card .body .partner {
-    font-weight: 600;
     font-size: 26px;
-    color: #1D4256;
   }
   .contact .inner .right-col .partnerships .card .body .duration {
-    font-weight: 500;
     font-size: 26px;
-    color: rgba(29, 66, 86, 0.6);
-    margin-top: 50px;
   }
   .contact .inner .right-col .partnerships .card .body .btn {
     font-size: 24px !important;
     width: 100%;
     padding-left: 35px;
     padding-right: 35px;
+  }
+
+  footer a {
+    font-size: 2.5rem;
   }
 }
 
