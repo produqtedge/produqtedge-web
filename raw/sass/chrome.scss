@@ -93,7 +93,7 @@
 }
 
 /* Extra large devices (large desktops, 1440px and up) */
-@media (min-width: 1440px) {
+@media (min-width: 1600px) {
   .header{
     display: flex;
     justify-content: center;
@@ -103,7 +103,7 @@
       width: 82%;
       padding: 35px 0px;
       .navbar-brand{
-        font-size: 3.4rem;
+        font-size: 2.5rem;
       }
       .navbar-nav {
         .nav-item {
@@ -112,7 +112,7 @@
             font-style: normal;
             font-weight: normal;
             line-height: normal;
-            font-size: 28px;
+            font-size: 24px;
           }
         }
       }
