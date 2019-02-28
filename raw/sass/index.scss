@@ -447,6 +447,7 @@ footer {
   .clients {
     display: flex;
     justify-content: center;
+    margin-bottom: 0px!important;
     padding: 50px 0px;
     .inner {
       width: 95%;
@@ -498,6 +499,7 @@ footer {
     background: url('../images/svg/lg-bg.svg');
     background-size: contain;
     background-repeat: no-repeat;
+    padding-bottom: 0px!important;
     .inner {
       margin-top: 20px;
       width: 95%;
@@ -568,6 +570,8 @@ footer {
   }
 
   .contact {
+    padding-top: 0px;
+    padding-bottom: 20px;
     height: 100%!important;
     .inner {
       width: 95%;
