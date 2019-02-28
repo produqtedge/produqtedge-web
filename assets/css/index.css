@@ -923,52 +923,179 @@ footer .inner {
   }
 }
 @media (min-width: 1577px) {
-  .focus {
-    display: flex;
-    justify-content: center;
-    background: url("../images/svg/focus-bg.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 1440px;
-    padding-top: 167px;
-    margin-top: -81px;
+  .btn {
+    height: 80px !important;
+    font-size: 26px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
-  .focus .inner {
-    width: 82%;
+
+  .hero .inner {
+    padding-bottom: 88px;
+  }
+  .hero .inner .left-hero .title {
+    font-size: 46px;
+  }
+  .hero .inner .hero-image {
+    width: 100%;
+  }
+
+  .what-we-do {
+    margin-top: 118px;
+  }
+  .what-we-do .inner .card {
+    height: 100%;
+  }
+  .what-we-do .inner .card img {
+    height: 115px;
+    width: 115px;
+  }
+  .what-we-do .inner .card .title {
+    font-size: 24px;
+  }
+  .what-we-do .inner .card .body {
+    line-height: 29px;
+    font-size: 16px;
+  }
+
+  .focus {
+    background: url("../images/svg/focus-bg-1902.svg");
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
   }
   .focus .inner .title {
     width: 70%;
-    font-family: Poppins;
-    font-weight: 500;
-    font-size: 30px;
-    color: #FFFFFF;
+    font-size: 35px;
+    margin-bottom: 52px;
   }
   .focus .inner .card-deck {
     flex-flow: wrap !important;
-    display: flex;
-    justify-content: center;
   }
   .focus .inner .card {
-    min-width: 400px !important;
-    height: 373px;
-    border: none;
-    border-top: 10px solid #72B8C9;
-    box-sizing: border-box;
-    border-radius: 10px;
-    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
-    padding: 20px 20px 20px 20px;
-    margin-bottom: 30px;
+    min-width: 425px !important;
+    margin-left: 0px !important;
+    height: 385px;
+    margin-bottom: 25px;
+    margin-right: 25px;
   }
   .focus .inner .card .title {
-    font-weight: bold;
-    font-size: 24px;
-    color: #000712;
-    margin: 20px 0px 10px 0px;
+    font-size: 23px;
   }
   .focus .inner .card .body {
-    line-height: 25px;
+    line-height: normal;
     font-size: 16px;
-    color: rgbs(0, 0, 0, 0.7);
+  }
+  .focus .inner .card:nth-child(3n) {
+    margin-right: 0px !important;
+  }
+  .focus .inner .card:last-child {
+    margin-right: 0px !important;
+  }
+
+  .combined-container {
+    height: 100%;
+    background: url("../images/svg/lg-bg.svg");
+    background-size: cover;
+    padding-bottom: 50px !important;
+    margin-top: -175px;
+  }
+  .combined-container .inner {
+    margin-top: 250px;
+  }
+  .combined-container .inner .how-we-do-it .card {
+    height: 884px;
+  }
+  .combined-container .inner .how-we-do-it .card .illustration {
+    width: 100%;
+  }
+  .combined-container .inner .industries {
+    height: 500px;
+  }
+  .combined-container .inner .industries .row {
+    width: 100%;
+  }
+  .combined-container .inner .industries .left-col .title {
+    font-size: 46px;
+    margin-top: 30px;
+  }
+  .combined-container .inner .industries .right-col .card {
+    height: 116px;
+    margin-bottom: 26px;
+  }
+  .combined-container .inner .industries .right-col .card .body {
+    font-size: 24px;
+  }
+  .combined-container .inner .industries .right-col .last-card {
+    margin-top: 58px;
+  }
+
+  .clients .inner {
+    margin-top: 0px !important;
+    width: 100% !important;
+  }
+  .clients .inner .title {
+    font-size: 23px;
+    margin-bottom: 80px;
+  }
+  .clients .inner img {
+    margin: 0px 40px;
+    height: 75px;
+  }
+
+  .contact {
+    height: 1045px;
+    padding-top: 70px;
+  }
+  .contact .inner .left-col .title {
+    font-size: 46px;
+    margin-bottom: 58px;
+  }
+  .contact .inner .left-col form label {
+    font-size: 16px;
+  }
+  .contact .inner .left-col form input {
+    height: 70px;
+  }
+  .contact .inner .left-col form .form-group {
+    margin-bottom: 35px;
+  }
+  .contact .inner .right-col .contact-card {
+    padding: 40px 0px 30px 40px;
+    width: 600px;
+    height: 175px;
+    font-size: 18px;
+  }
+  .contact .inner .right-col .contact-card .icons .icon {
+    max-width: 25px;
+    min-width: 25px;
+    max-height: 25px;
+    min-height: 25px;
+    margin-right: 26px;
+  }
+  .contact .inner .right-col .contact-card .icons .icon i {
+    font-size: 14px !important;
+  }
+  .contact .inner .right-col .partnerships {
+    margin-top: 40px;
+  }
+  .contact .inner .right-col .partnerships .card .title {
+    font-size: 28px;
+  }
+  .contact .inner .right-col .partnerships .card .body .partner {
+    font-size: 23px;
+  }
+  .contact .inner .right-col .partnerships .card .body .duration {
+    font-size: 23px;
+  }
+  .contact .inner .right-col .partnerships .card .body .btn {
+    font-size: 22px !important;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  footer a {
+    font-size: 2.5rem;
   }
 }
 /* Extra large devices (large desktops, 1440px and up) */
@@ -1010,7 +1137,7 @@ footer .inner {
 
   .focus {
     background: url("../images/svg/focus-bg-1902.svg");
-    margin-bottom: 383px;
+    margin-bottom: 0px;
     background-repeat: no-repeat;
   }
   .focus .inner .title {
@@ -1047,6 +1174,7 @@ footer .inner {
     background: url("../images/svg/lg-bg.svg");
     background-size: cover;
     padding-bottom: 50px !important;
+    margin-top: -150px;
   }
   .combined-container .inner {
     margin-top: 250px;
