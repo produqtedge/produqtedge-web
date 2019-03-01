@@ -32,16 +32,16 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">What we do</a>
+              <a class="nav-link" href="#what-we-do">What we do</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Process</a>
+              <a class="nav-link" href="#process">Process</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Partnership</a>
+              <a class="nav-link" href="#partnerships">Partnership</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -61,7 +61,7 @@
       </div>
     </div>
     <div class="what-we-do">
-      <div class="inner row">
+      <div class="inner row" id="what-we-do">
         <div class="col-12 col-md-6 pl-0 pr-0 pr-lg-3 mb-5 mb-lg-0">
           <div class="card">
             <img src="./assets/images/svg/user.svg" alt="Hero Image" width="100px">
@@ -146,9 +146,9 @@
     </div>
     <div class="combined-container">
       <div class="inner">
-        <div class="how-we-do-it">
+        <div class="how-we-do-it" id="process">
           <div class="card">
-            <img src="./assets/images/svg/how we do it.svg" alt="How we do it illustration" class="illustration">
+            <img src="./assets/images/svg/how we do it (3).svg" alt="How we do it illustration" class="illustration">
           </div>
         </div>
         <div class="industries">
@@ -165,9 +165,15 @@
                   <div class="card">
                     <p class="body">Financial service providers</p>
                   </div>
+                  <div class="card">
+                    <p class="body">Financial service providers</p>
+                  </div>
                 </div>
                 <div class="col-12 col-md-6 ">
                   <div class="card last-card">
+                    <p class="body">Tech. companies</p>
+                  </div>
+                  <div class="card">
                     <p class="body">Tech. companies</p>
                   </div>
                 </div>
@@ -186,55 +192,70 @@
             </div>
           </div>
         </div>
-
-      </div>
-    </div>
-    <div class="contact">
-      <div class="inner row">
-        <div class="col-12 col-lg-6 left-col px-0 pr-lg-3">
-          <p class="title">Let’s help you execute your great ideas..</p>
-          <form>
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="firstname">First Name</label>
-                <input type="text" class="form-control" id="firstname" name="firstname" placeholder="">
+        <div class="contact" id="contact">
+          <div class="inner row">
+            <div class="col-12 col-lg-6 left-col px-0 pr-lg-3">
+              <p class="title">Let’s help you execute your great ideas..</p>
+              <form>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="firstname">First Name</label>
+                    <input type="text" class="form-control" id="firstname" name="firstname" placeholder="">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" class="form-control" id="lastname" name="lastname" placeholder="">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="Email">Email</label>
+                  <input type="email" name="email" class="form-control" id="email" placeholder="">
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea class="form-control" id="message" rows="8" name"message" ></textarea>
+                </div>
+                <div class="text-center text-lg-right">
+                  <button type="submit" class="btn btn-orange">Send Message</button>
+                </div>
+              </form>
+            </div>
+            <div class="col-12 col-lg-6 right-col px-0 pl-lg-3">
+              <div class="">
+                <div class="contact-card">
+                  <p>+234 810 518 2400</p>
+                  <p>info@produqtedge.com</p>
+                  <div class="icons">
+                    <a href="#" class="icon"> <i class="fab fa-twitter fa-fw"></i> </a>
+                    <a href="#" class="icon"> <i class="fab fa-facebook-f fa-fw"></i> </a>
+                    <a href="#" class="icon"> <i class="fab fa-instagram fa-fw"></i> </a>
+                  </div>
+                </div>
+                <div class="partnerships" id="partnerships">
+                  <div class="card">
+                    <p class="title">Current Partnerships</p>
+                    <div class="body">
+                      <p class="partner">Open banking Nigeria</p>
+                      <p class="duration">2018 - Present</p>
+                      <p class="partner">Reach Out to us, we would love to partner with you</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="form-group col-md-6">
-                <label for="lastname">Last Name</label>
-                <input type="text" class="form-control" id="lastname" name="lastname" placeholder="">
-              </div>
             </div>
-            <div class="form-group">
-              <label for="Email">Email</label>
-              <input type="email" name="email" class="form-control" id="email" placeholder="">
-            </div>
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea class="form-control" id="message" rows="8" name"message" ></textarea>
-            </div>
-            <div class="text-center text-lg-right">
-              <button type="submit" class="btn btn-orange">Send Message</button>
-            </div>
-          </form>
+          </div>
         </div>
-        <div class="col-12 col-lg-6 right-col px-0 pl-lg-3">
-          <div class="">
-            <div class="contact-card">
-              <p>+234 810 518 2400</p>
-              <p>info@produqtedge.com</p>
-              <div class="icons">
-                <a href="#" class="icon"> <i class="fab fa-twitter fa-fw"></i> </a>
-                <a href="#" class="icon"> <i class="fab fa-facebook-f fa-fw"></i> </a>
-                <a href="#" class="icon"> <i class="fab fa-instagram fa-fw"></i> </a>
-              </div>
-            </div>
-            <div class="partnerships">
-              <div class="card">
-                <p class="title">Current Partnerships</p>
-                <div class="body">
-                  <p class="partner">Open banking Nigeria</p>
-                  <p class="duration">2018 - Present</p>
-                  <button type="button" class="btn btn-orange">Reach Out to us, we would love to partner with you</button>
+        <div class="footer">
+          <div class="inner">
+            <div class="d-flex justify-content-between">
+              <a class="navbar-brand font-weight-bold" href="#" >
+                <span style="color:#00213A">Produqt</span><span style="color:#FE9001">edge</span>
+              </a>
+              <div class="">
+                <div class="icons">
+                  <a href="#" class="icon"> <i class="fab fa-twitter fa-fw"></i> </a>
+                  <a href="#" class="icon"> <i class="fab fa-facebook-f fa-fw"></i> </a>
+                  <a href="#" class="icon"> <i class="fab fa-instagram fa-fw"></i> </a>
                 </div>
               </div>
             </div>
@@ -244,14 +265,8 @@
     </div>
 
 
-    <footer>
-      <div class="inner">
-        <a class="navbar-brand font-weight-bold" href="#" style="font-size:2.5rem">
-          <span style="color:#FFFFFF">Produqt</span><span style="color:#FE9001">edge</span>
-          <!-- <img src="./assets/images/logo/logo.svg" alt="Produqtegde Logo"> -->
-        </a>
-      </div>
-    </footer>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
