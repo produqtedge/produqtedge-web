@@ -16,7 +16,7 @@
   font-family: Poppins;
   font-weight: bold;
   font-size: 40px;
-  color: #000712;
+  color: #040615;
 }
 .hero .inner .hero-image {
   width: 550px;
@@ -36,7 +36,7 @@
   font-family: Poppins;
   font-weight: bold;
   font-size: 20px;
-  color: #000712;
+  color: #040615;
   margin-bottom: 60px;
 }
 .clients .inner img {
@@ -54,7 +54,7 @@
 .what-we-do .inner .card {
   height: 450px;
   border: none;
-  border-top: 10px solid #72B8C9;
+  border-top: 10px solid #88AFDD;
   box-sizing: border-box;
   border-radius: 10px;
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
@@ -63,7 +63,7 @@
 .what-we-do .inner .card .title {
   font-weight: bold;
   font-size: 20px;
-  color: #000712;
+  color: #040615;
   margin: 30px 0px 15px 0px;
 }
 .what-we-do .inner .card .body {
@@ -102,7 +102,7 @@
   max-width: 350px;
   height: 330px;
   border: none;
-  border-top: 10px solid #72B8C9;
+  border-top: 10px solid #88AFDD;
   box-sizing: border-box;
   border-radius: 10px;
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
@@ -112,7 +112,7 @@
 .focus .inner .card .title {
   font-weight: bold;
   font-size: 20px;
-  color: #000712;
+  color: #040615;
   margin: 20px 0px 10px 0px;
 }
 .focus .inner .card .body {
@@ -125,7 +125,7 @@
   display: flex;
   height: 100%;
   justify-content: center;
-  background: url("../images/svg/lg-bg (2).svg");
+  background: url("../images/svg/lg-bg.svg");
   background-size: cover;
   padding-bottom: 0px !important;
   background-repeat: no-repeat;
@@ -138,8 +138,8 @@
   min-width: 100%;
   height: 758px;
   border: none;
-  background: #003F5A;
-  border-top: 10px solid #72B8C9;
+  background: #144182;
+  border-top: 10px solid #88AFDD;
   border-radius: 10px;
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
   padding: 90px 70px 94px 120px;
@@ -166,7 +166,7 @@
   font-weight: bold;
   line-height: normal;
   font-size: 40px;
-  color: #000712;
+  color: #040615;
   margin-top: 25px;
 }
 .combined-container .inner .industries .right-col {
@@ -179,7 +179,7 @@
   min-width: 100%;
   height: 100px;
   border: none;
-  border-top: 10px solid #72B8C9;
+  border-top: 10px solid #88AFDD;
   box-sizing: border-box;
   border-radius: 10px;
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
@@ -207,23 +207,22 @@
   width: 100%;
   min-height: 235px;
   height: 100%;
-  background: rgba(88, 191, 228, 0.1);
+  background: #4776b9;
   border-radius: 10px;
   padding: 31px;
 }
 .partnerships .card .title {
   font-weight: 600;
   font-size: 20px;
-  color: #000712;
+  color: #040615;
   text-align: left;
   padding-bottom: 10px;
   margin-bottom: 20px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.66);
 }
 .partnerships .card .body .partner {
-  font-weight: 600;
   font-size: 20px;
-  color: #1D4256;
+  color: #88afdd;
   margin-bottom: 0px;
 }
 .partnerships .card .body .duration {
@@ -253,7 +252,7 @@
   font-family: Poppins;
   font-weight: bold;
   font-size: 40px;
-  color: #000712;
+  color: #040615;
   margin-bottom: 50px;
 }
 .contact .inner .left-col form label {
@@ -287,7 +286,7 @@
   height: 144px;
   background: url("../images/svg/bg.svg");
   background-size: cover;
-  color: #72b8c9;
+  color: #88afdd;
   font-size: 16px;
 }
 .contact .inner .right-col .contact-card .icons {
@@ -298,7 +297,7 @@
   min-width: 25px;
   max-height: 25px;
   min-height: 25px;
-  background: #72b8c9;
+  background: rgba(136, 175, 221, 0.5);
   border-radius: 100%;
   text-decoration: none;
   display: flex;
@@ -334,7 +333,7 @@
   min-width: 50px;
   max-height: 50px;
   min-height: 50px;
-  background: #00213A;
+  background: #040615;
   border-radius: 100%;
   text-decoration: none;
   display: flex;
@@ -343,7 +342,7 @@
   margin-right: 20px;
 }
 .footer .inner .icons .icon i {
-  color: #FFFFFF;
+  color: #88afdd;
   font-size: 20px !important;
 }
 
@@ -451,7 +450,7 @@
     font-family: Poppins;
     font-weight: bold;
     font-size: 20px;
-    color: #000712;
+    color: #040615;
     margin-bottom: 60px;
   }
   .clients .inner img {
@@ -488,7 +487,7 @@
     display: flex;
     height: 100%;
     justify-content: center;
-    background: url("../images/svg/lg-bg (2).svg");
+    background: url("../images/svg/lg-bg.svg");
     background-size: contain;
     background-repeat: no-repeat;
     padding-bottom: 0px !important;
@@ -688,7 +687,7 @@
     display: flex;
     height: 100%;
     justify-content: center;
-    background: url("../images/svg/lg-bg (2).svg");
+    background: url("../images/svg/lg-bg.svg");
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -848,7 +847,7 @@
     display: flex;
     height: 100%;
     justify-content: center;
-    background: url("../images/svg/lg-bg (2).svg");
+    background: url("../images/svg/lg-bg.svg");
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -1048,10 +1047,10 @@
 
   .combined-container {
     height: 100%;
-    background: url("../images/svg/lg-bg (2).svg");
+    background: url("../images/svg/lg-bg.svg");
     background-size: cover;
     padding-bottom: 50px !important;
-    margin-top: -175px;
+    margin-top: 0px;
   }
   .combined-container .inner {
     margin-top: 250px;
@@ -1225,7 +1224,7 @@
 
   .combined-container {
     height: 100%;
-    background: url("../images/svg/lg-bg (2).svg");
+    background: url("../images/svg/lg-bg.svg");
     background-size: cover;
     padding-bottom: 50px !important;
     margin-top: -150px;
