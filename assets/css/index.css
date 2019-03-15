@@ -129,6 +129,7 @@
   background-size: cover;
   padding-bottom: 0px !important;
   background-repeat: no-repeat;
+  margin-top: -250px;
 }
 .combined-container .inner {
   margin-top: 200px;
@@ -1050,7 +1051,7 @@
     background: url("../images/svg/lg-bg.svg");
     background-size: cover;
     padding-bottom: 50px !important;
-    margin-top: 0px;
+    margin-top: -75px;
   }
   .combined-container .inner {
     margin-top: 250px;
