@@ -315,6 +315,7 @@
 .footer {
   // height: 100%;
   margin-top: 50px;
+  margin-bottom: 50px;
   // padding-top: 20px;
   border-top: 1px solid #00213A;
   background: transparent;
@@ -1078,7 +1079,7 @@
     }
   }
   .focus {
-    background: url('../images/svg/focus-bg-1902.svg');
+    background: url('../images/svg/focus-bg.svg');
     margin-bottom: 0px;
     background-repeat: no-repeat;
     .inner {
@@ -1171,8 +1172,9 @@
 
   .contact {
     height: 1045px;
-    padding-top: 70px;
+    padding-top: 0px;
     .inner {
+      margin-top: 50px;
       .left-col {
         .title {
           font-size: 46px;

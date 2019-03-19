@@ -310,6 +310,7 @@
 
 .footer {
   margin-top: 50px;
+  margin-bottom: 50px;
   border-top: 1px solid #00213A;
   background: transparent;
   display: flex;
@@ -1026,7 +1027,7 @@
   }
 
   .focus {
-    background: url("../images/svg/focus-bg-1902.svg");
+    background: url("../images/svg/focus-bg.svg");
     margin-bottom: 0px;
     background-repeat: no-repeat;
   }
@@ -1111,7 +1112,10 @@
 
   .contact {
     height: 1045px;
-    padding-top: 70px;
+    padding-top: 0px;
+  }
+  .contact .inner {
+    margin-top: 50px;
   }
   .contact .inner .left-col .title {
     font-size: 46px;
